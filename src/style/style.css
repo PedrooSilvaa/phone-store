@@ -29,3 +29,59 @@ header {
     font-weight: 900;
     color: white;
 }
+
+#store {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#title-principal {
+    margin-top: 40px;
+    font-size: 40px;
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid-store {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    justify-content: space-around;
+}
+
+.phone {
+    max-width: 100%;
+    display: grid;
+    place-items: center;
+    border: 2px black solid;
+    border-radius: 40px;
+    filter: drop-shadow(15px 15px 15px white);
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.phone img {
+    max-width: 100%;
+    filter: drop-shadow(15px 15px 15px black);
+}
+
+.phone h1 {
+    position: absolute;
+    top: 105%;
+    border: 2px black solid;
+    border-radius: 40px;
+    padding: 10px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.phone h1:hover {
+    background-color: black;
+    color: white;
+    
+}
