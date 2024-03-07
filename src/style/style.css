@@ -95,11 +95,30 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #local-texto {
-    
-    background-color: aqua;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.6);
+    backdrop-filter: blur(20px);
     display: flex;
-  
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+#image-texto img {
+    width: 150px;
+    height: 100px;
+} 
+
+#image-texto {
+    display: flex;
+    align-items: center;
+    text-align: end ;
+    justify-content: space-between;
+    padding-bottom: 30px;
 }
