@@ -131,3 +131,37 @@ header {
     color: white;
     cursor: grab;
 }
+
+#check, #menu-check {
+    display: none;
+    cursor: pointer;
+}
+
+@media(max-width: 800px){
+    .grid-store {
+        grid-template-columns: 300px;
+    }
+
+    #lista-menu {
+        position: absolute;
+        backdrop-filter: none;
+        display: none;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #menu-check{
+        background-color: rgb(0, 0, 0, 0.6);
+        backdrop-filter: blur(20px);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        cursor: pointer;
+        color: white;
+    }
+    #check:checked ~ #lista-menu{
+        display: flex;
+   }
+}
