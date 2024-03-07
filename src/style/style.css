@@ -122,3 +122,12 @@ header {
     justify-content: space-between;
     padding-bottom: 30px;
 }
+
+#caixa-texto i {
+    font-size: 30px;
+    position: absolute;
+    top: 22%;
+    left: 66%;
+    color: white;
+    cursor: grab;
+}
